@@ -36,6 +36,9 @@ The dataset comes from the UCI Machine Learning Repository Wine Quality (https:/
 | RBF SVM (default)     | 0.88     | 0.26              | 0.38          |
 | RBF SVM (tuned)       | **0.90** | **0.68**          | **0.67**      |
 
+### 🔍 Confusion Matrix (Tuned RBF SVM)
+![Confusion Matrix](images/confusionmatrix.png)
+
 ## ⚙️Tools
 - Python 3.12
 - Scikit-learn
