@@ -17,14 +17,14 @@ The dataset comes from the UCI Machine Learning Repository Wine Quality (https:/
 
 ## ⚙️Method
 1. **Exploratory Data Analysis (EDA)**
-  - Checked distributions, correlations, and class imbalance.
+    - Checked distributions, correlations, and class imbalance.
     
 2. **Baseline Model: Linear SVM**
    - High accuracy but failed to detect minority class (recall = 0).
 
 3. **RBF Kernel SVM**
-  - Better performance, but minority recall was still low.
+    - Better performance, but minority recall was still low.
 
 4. **Hyperparameter Tuning (GridSearchCV)**
-  - Tuned C and gamma for RBF kernel.
-  - Improved minority recall to 68% while keeping high accuracy.
+    - Tuned C and gamma for RBF kernel.
+    - Improved minority recall to 68% while keeping high accuracy.
