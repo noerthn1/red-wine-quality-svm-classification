@@ -42,3 +42,9 @@ The dataset comes from the UCI Machine Learning Repository Wine Quality (https:/
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Jupyter Notebook
+
+## 🧠 What I learned :
+- Why accuracy isn’t enough for imbalanced datasets.
+- How kernel choice impacts SVM performance.
+- The importance of hyperparameter tuning (C and gamma).
+- How to present machine learning results in a clear way.
