@@ -1,2 +1,6 @@
-# red-wine-quality-svm-classification
-The objective of this project is to develop a classifier using a Support Vector Machine (SVM) model to distinguish between good and bad wines.
+# Red Wine Quality Classifications with SVM
+
+## Project Overview
+This project applies Support Vector Machines (SVM) to classify wines as good or not good based on their physicochemical properties.
+
+The dataset comes from the UCI Machine Learning Repository – Wine Quality
