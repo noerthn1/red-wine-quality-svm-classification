@@ -28,3 +28,17 @@ The dataset comes from the UCI Machine Learning Repository Wine Quality (https:/
 4. **Hyperparameter Tuning (GridSearchCV)**
     - Tuned C and gamma for RBF kernel.
     - Improved minority recall to 68% while keeping high accuracy.
+
+## 📈 Results
+| Model                 | Accuracy | Recall (Minority) | F1 (Minority) |
+| --------------------- | -------- | ----------------- | ------------- |
+| Linear SVM (baseline) | 0.85     | 0.00              | 0.00          |
+| RBF SVM (default)     | 0.88     | 0.26              | 0.38          |
+| RBF SVM (tuned)       | **0.90** | **0.68**          | **0.67**      |
+
+## ⚙️Tools
+- Python 3.12
+- Scikit-learn
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Jupyter Notebook
